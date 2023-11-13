@@ -14,6 +14,9 @@
       "desc": "Enterprise Application",
       "where": "tags/any(t:t eq 'WindowsAzureActiveDirectoryIntegratedApp')",
       "Command": "Get-EnterpriseApps",
+      "parameters": {
+        "asApp": true
+      },
       "URL": "https://graph.microsoft.com/beta/servicePrincipals"
     }
   ]
