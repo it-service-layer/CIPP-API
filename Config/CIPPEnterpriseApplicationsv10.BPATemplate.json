@@ -1,0 +1,20 @@
+{
+  "name": "CIPP Enterprise Applications v1.0",
+  "style": "Table",
+  "Fields": [
+    {
+      "name": "EnterpriseApplication",
+      "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "Display Name",
+          "value": "appDiplayName"
+        }
+      ],
+      "desc": "Enterprise Application",
+      "where": "tags/any(t:t eq 'WindowsAzureActiveDirectoryIntegratedApp')",
+      "Command": "Get-EnterpriseApps",
+      "URL": "https://graph.microsoft.com/beta/servicePrincipals"
+    }
+  ]
+}
