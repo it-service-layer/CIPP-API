@@ -8,12 +8,12 @@
       "FrontendFields": [
         {
           "name": "Display Name",
-          "value": "appDiplayName"
+          "value": "appDisplayName"
         }
       ],
       "desc": "Enterprise Application",
-      "where": "tags/any(t:t eq 'WindowsAzureActiveDirectoryIntegratedApp')",
-      "Command": "Get-EnterpriseApps",
+      "where": "",
+      "Command": "Get-CIPP",
       "parameters": {
         "asApp": true
       },
