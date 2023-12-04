@@ -5,25 +5,24 @@
     {
       "name": "W11Eigibility",
       "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "W11 Eligibility",
+          "value": "W11Eigibility",
+          "formatter": "table"
+        }
+      ],
+      "StoreAs": "JSON",
       "API": "Graph",
-      "URL": "https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices",
-      "Parameters": {
-        "asApp": "True"
-      },
       "ExtractFields": [
         "id",
         "deviceName",
         "upgradeEligibility"
       ],
-      "StoreAs": "JSON",
-      "FrontendFields": [
-        {
-          "name": "W11 Eligibility",
-          "value": "W11Eigibility",
-          "formatter": "table",
-          "desc": "W11 upgradable machines"
-        }
-      ]
+      "parameters": {
+        "asApp": true
+      },
+      "URL": "https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices"
     }
   ]
 }
