@@ -6,7 +6,7 @@
       "name": "W11Eigibility",
       "UseExistingInfo": false,
       "API": "Graph",
-      "URL": "https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices"
+      "URL": "https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices",
       "Parameters": {
         "Nopagination": true
       },
