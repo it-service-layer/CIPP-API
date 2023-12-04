@@ -4,7 +4,7 @@
   "Fields": [
     {
       "name": "W11Eigibility",
-      "UseExistingInfo": false,
+      "UseExistingInfo": true,
       "FrontendFields": [
         {
           "name": "Device ID",
