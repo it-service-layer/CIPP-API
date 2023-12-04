@@ -9,17 +9,17 @@
         {
           "name": "Device ID",
           "value": "W11Eigibility.id",
-          "formatter": "string"
+          "formatter": "table"
         },
         {
           "name": "Device Name",
           "value": "W11Eigibility.deviceName",
-          "formatter": "string"
+          "formatter": "table"
         },
         {
           "name": "upgradeEligibility",
           "value": "W11Eigibility.upgradeEligibility",
-          "formatter": "bool"
+          "formatter": "table"
         }
       ],
       "StoreAs": "JSON",
