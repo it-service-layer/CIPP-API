@@ -1,22 +1,37 @@
 {
   "name": "CIPP W11 Upgrade Eligibility v1.0 - Tenant view",
-  "style": "Tenant",
+  "style": "Table",
   "Fields": [
     {
       "name": "W11Eigibility",
-      "UseExistingInfo": false,
-      "FrontendFields": [],
-      "StoreAs": "JSON",
+      
       "API": "Graph",
+      "URL": "https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices",
+      "parameters": {
+        "asApp": "True"
+      },
       "ExtractFields": [
         "id",
         "deviceName",
         "upgradeEligibility"
       ],
-      "parameters": {
-        "asApp": false
-      },
-      "URL": "https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices"
+      "StoreAs": "JSON",
+      "FrontendFields": [
+        {
+          "name": "Device ID",
+          "value": "W11Eigibility.id",
+          "formatter": "string"
+        },
+        {
+          "name": "Device Name",
+          "value": "W11Eigibility.deviceName",
+          "formatter": "string"
+        },
+        {
+          "name": "upgradeEligibility",
+          "value": "W11Eigibility.upgradeEligibility",
+          "formatter": "bool"
+        }
+      ]
     }
-  ]
-}
+  ]}
