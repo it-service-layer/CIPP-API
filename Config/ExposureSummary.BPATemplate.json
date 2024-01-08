@@ -19,7 +19,10 @@
       ],
       "desc": "tenantExposureSummaries",
       "StoreAs": "JSON",
-      "ExtractFields": [],
+      "ExtractFields": [
+        "totalDeviceCount",
+        "criticalVulnerabilityCount"
+      ],
       "Command": "Get-CIPP",
       "parameters": {
         "asApp": true
