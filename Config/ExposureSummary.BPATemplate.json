@@ -1,0 +1,30 @@
+{
+  "name": "Exposure Summary",
+  "style": "Table",
+  "Fields": [
+    {
+      "name": "tenantExposureSummaries",
+      "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "totalDeviceCount",
+          "value": "totalDeviceCount",
+          "formatter": "number"
+        },
+        {
+          "name": "criticalVulnerabilityCount",
+          "value": "criticalVulnerabilityCount",
+          "formatter": "number"
+        }
+      ],
+      "desc": "tenantExposureSummaries",
+      "StoreAs": "JSON",
+      "ExtractFields": [],
+      "Command": "Get-CIPP",
+      "parameters": {
+        "asApp": true
+      },
+      "URL": "https://graph.microsoft.com/beta/tenantRelationships/managedTenants/tenantExposureSummaries"
+    }
+  ]
+}
