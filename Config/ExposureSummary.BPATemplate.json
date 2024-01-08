@@ -8,7 +8,7 @@
       "URL": "https://graph.microsoft.com/beta/tenantRelationships/managedTenants/tenantExposureSummaries",
       "parameters": {
         "asApp": true},
-      "StoreAs": "JSON"
+      "StoreAs": "JSON",
       "ExtractFields": [
         "totalDeviceCount",
         "criticalVulnerabilityCount"
