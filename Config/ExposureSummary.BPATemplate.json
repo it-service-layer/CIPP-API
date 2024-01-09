@@ -23,6 +23,40 @@
           "name": "criticalVulnerabilityCount",
           "value": "criticalVulnerabilityCount",
           "formatter": "number"
+        },
+        {
+          "name": "exposedDeviceCount",
+          "value": "exposedDeviceCount",
+          "formatter": "number"
+        },
+        {
+          "name": "highVulnerabilityCount",
+          "value": "highVulnerabilityCount",
+          "formatter": "number"
+        },
+        {
+          "name": "recommendationCount",
+          "value": "recommendationCount",
+          "formatter": "number"
+        },
+        {
+          "name": "riskExposureScore",
+          "value": "riskExposureScore",
+          "formatter": "number"
+        },
+        {
+          "name": "riskExposureDrift",
+          "value": "riskExposureDrift"
+        },
+        {
+          "name": "totalVulnerabilityCount",
+          "value": "totalVulnerabilityCount",
+          "formatter": "number"
+        },
+        {
+          "name": "pastRiskExposureScores",
+          "value": "pastRiskExposureScores",
+          "formatter": "table"
         }
       ],
       "desc": "tenantExposureSummaries"
