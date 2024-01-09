@@ -1,13 +1,13 @@
 {
   "name": "WIT Exposure Summary v1.0 - Table View",
-  "style": "Table",
+  "style": "Tenant",
   "Fields": [
     {
       "name": "ExposureSummaries",
       "API": "Graph",
       "URL": "https://graph.microsoft.com/beta/tenantRelationships/managedTenants/tenantExposureSummaries",
       "parameters": {
-        "asApp": false},
+        "asApp": true},
       "StoreAs": "JSON",
       "ExtractFields": [
         "totalDeviceCount",
