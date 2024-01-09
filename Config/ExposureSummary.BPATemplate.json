@@ -1,6 +1,6 @@
 {
-  "name": "WIT Exposure Summary v1.1 - Table View",
-  "style": "Tenant",
+  "name": "WIT Exposure Summary v1.1.1 - Table View",
+  "style": "Table",
   "Fields": [
     {
       "name": "ExposureSummaries",
