@@ -1,6 +1,6 @@
 {
-  "name": "CIPP W11 Upgrade Eligibility v1.1.1 - Table View",
-  "style": "Tenant",
+  "name": "CIPP W11 Upgrade Eligibility v1.1.2 - Table View",
+  "style": "Table",
   "Fields": [
     {
       "name": "W11Eigibility",
