@@ -7,7 +7,7 @@
       "API": "Graph",
       "URL": "https://graph.microsoft.com/beta/tenantRelationships/managedTenants/tenantExposureSummaries",
       "parameters": {
-        "asApp": true},
+        "asApp": false},
       "StoreAs": "JSON",
       "ExtractFields": [
         "totalDeviceCount",
