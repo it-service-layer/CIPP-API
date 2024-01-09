@@ -59,7 +59,7 @@
           "formatter": "table"
         }
       ],
-      "desc": "tenantExposureSummaries"
+      "desc": "Defender tenant exposure."
       }      
   ]
 }
