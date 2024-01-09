@@ -7,8 +7,18 @@
       "UseExistingInfo": false,
       "FrontendFields": [
         {
-          "name": "W11 Eligibility",
-          "value": "W11Eigibility",
+          "name": "Device id",
+          "value": "id",
+          "formatter": "table"
+        },
+        {
+          "name": "Device Name",
+          "value": "deviceName",
+          "formatter": "table"
+        },
+        {
+          "name": "Upgrade Eligibility",
+          "value": "upgradeEligibility",
           "formatter": "table"
         }
       ],
