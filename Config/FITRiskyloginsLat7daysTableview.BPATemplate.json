@@ -1,0 +1,24 @@
+{
+  "name": "FIT Risky logins Lat 7 days  - Table view",
+  "style": "Table",
+  "Fields": [
+    {
+      "name": "Name",
+      "UseExistingInfo": false,
+      "FrontendFields": [
+        {
+          "name": "Name",
+          "value": "userDisplayName"
+        }
+      ],
+      "desc": "Rsiky user name",
+      "where": "riskLastUpdatedDateTime gt 2024-02-05T11:03:25.532Z and riskState in ('atRisk')",
+      "StoreAs": "JSON",
+      "API": "Graph",
+      "ExtractFields": [
+        "userDisplayName"
+      ],
+      "URL": "https://graph.microsoft.com/beta/$metadata#tenantRelationships/managedTenants/riskyUsers"
+    }
+  ]
+}
