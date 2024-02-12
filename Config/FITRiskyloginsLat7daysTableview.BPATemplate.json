@@ -18,7 +18,7 @@
       "ExtractFields": [
         "userDisplayName"
       ],
-      "URL": "https://graph.microsoft.com/beta/$metadata#tenantRelationships/managedTenants/riskyUsers"
+      "URL": "https://graph.microsoft.com/beta/tenantRelationships/managedTenants/riskyUsers"
     }
   ]
 }
