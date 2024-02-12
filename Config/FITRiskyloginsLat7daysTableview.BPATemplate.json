@@ -3,21 +3,28 @@
   "style": "Table",
   "Fields": [
     {
-      "name": "Name",
+      "name": "userDisplayName",
       "UseExistingInfo": false,
       "FrontendFields": [
         {
           "name": "Name",
           "value": "userDisplayName"
+        },
+        {
+          "name": "State",
+          "value": "riskState"
         }
       ],
-      "desc": "Rsiky user name",
-      "where": "",
+      "desc": "Risky user name",
       "StoreAs": "JSON",
       "API": "Graph",
       "ExtractFields": [
-        "userDisplayName"
+        "userDisplayName",
+        "riskState"
       ],
+      "parameters": {
+        "asApp": true
+      },
       "URL": "https://graph.microsoft.com/beta/tenantRelationships/managedTenants/riskyUsers"
     }
   ]
