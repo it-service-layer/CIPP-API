@@ -20,7 +20,7 @@
         "upgradeEligibility"
       ],
       "parameters": {
-        "asApp": false
+        "asApp": true
       },
       "URL": "https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices"
     }
