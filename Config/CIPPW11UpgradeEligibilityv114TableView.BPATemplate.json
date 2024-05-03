@@ -22,7 +22,7 @@
       "parameters": {
         "asApp": false
       },
-      "URL": "https://graph.microsoft.com/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices"
+      "URL": "https://graph.microsoft.com/beta/deviceManagement/userExperienceAnalyticsWorkFromAnywhereMetrics('allDevices')/metricDevices"
     }
   ]
 }
