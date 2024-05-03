@@ -9,21 +9,22 @@
         {
           "name": "Device id",
           "value": "id",
-          "formatter": "string"
+          "formatter": "table"
         },
         {
           "name": "Device Name",
           "value": "deviceName",
-          "formatter": "string"
+          "formatter": "table"
         },
         {
           "name": "Upgrade Eligibility",
           "value": "upgradeEligibility",
-          "formatter": "string"
+          "formatter": "table"
         },
         {
           "name": "tenant",
-          "value": "tenant"
+          "value": "tenant",
+          "formatter": "table"
         }
       ],
       "StoreAs": "JSON",
