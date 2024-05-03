@@ -20,17 +20,11 @@
           "name": "Upgrade Eligibility",
           "value": "upgradeEligibility",
           "formatter": "table"
-        },
-        {
-          "name": "tenant",
-          "value": "tenant",
-          "formatter": "table"
         }
       ],
       "StoreAs": "JSON",
       "API": "Graph",
       "ExtractFields": [
-        "tenant",
         "id",
         "deviceName",
         "upgradeEligibility"
